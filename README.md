@@ -4,6 +4,25 @@
 [![npm](https://img.shields.io/badge/npm-install-orange.svg)](https://www.npmjs.com/package/eslint-config-wezom-relax)
 [![WezomAgency](https://img.shields.io/badge/wezom-agency-red.svg)](https://github.com/WezomAgency)
 
----
 
-Config based on 
+> An ESLint [Shareable Config](http://eslint.org/docs/developer-guide/shareable-configs).
+
+
+### Install
+
+```bash
+npm i eslint-config-wezom-relax
+```
+
+
+### Usage
+
+Add this to your [.eslintrc file](https://eslint.org/docs/user-guide/configuring#configuration-file-formats):
+
+```json
+{
+  "extends": "eslint-config-wezom-relax"
+}
+```
+
+_Note: You can omitted the `eslint-config-` prefix since it is automatically assumed by ESLint._
