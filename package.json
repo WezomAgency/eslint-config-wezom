@@ -1,7 +1,8 @@
 {
   "name": "eslint-config-wezom-relax",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "An ESLint Shareable Config",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
