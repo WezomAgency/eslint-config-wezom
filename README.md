@@ -26,3 +26,18 @@ Add this to your [.eslintrc file](https://eslint.org/docs/user-guide/configuring
 ```
 
 _Note: You can omitted the `eslint-config-` prefix since it is automatically assumed by ESLint._
+
+
+### Readme badges
+
+[![Javascript Style Guide](https://img.shields.io/badge/code_style-wezom_relax-red.svg)](https://github.com/WezomAgency/eslint-config-wezom-relax)
+
+```md
+[![Javascript Style Guide](https://img.shields.io/badge/code_style-wezom_relax-red.svg)](https://github.com/WezomAgency/eslint-config-wezom-relax)
+```
+
+[![Javascript Style Guide](https://raw.githubusercontent.com/WezomAgency/eslint-config-wezom-relax/master/assets/badge.jpg)](https://github.com/WezomAgency/eslint-config-wezom-relax)
+
+```md
+[![Javascript Style Guide](https://raw.githubusercontent.com/WezomAgency/eslint-config-wezom-relax/master/assets/badge.jpg)](https://github.com/WezomAgency/eslint-config-wezom-relax)
+```
