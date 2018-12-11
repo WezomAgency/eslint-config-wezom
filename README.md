@@ -8,7 +8,22 @@
 > An ESLint [Shareable Config](http://eslint.org/docs/developer-guide/shareable-configs).
 
 
-# Install
+## What is under the hood?
+
+- parser: _[babel-eslint](https://github.com/babel/babel-eslint)_
+- extends:
+	- _[eslint-config-standard](https://github.com/standard/eslint-config-standard)_
+	- _[eslint-plugin-import](https://github.com/benmosher/eslint-plugin-import)_
+- rules:
+	- no-tabs: _off_
+	- import/no-unresolved: _off_
+	- import/namespace: _off_
+	- indent: _tabs_
+	- semi: _on_
+
+---
+
+## Install
 
 ```bash
 npm i eslint-config-wezom-relax
@@ -16,7 +31,7 @@ npm i eslint-config-wezom-relax
 
 ---
 
-# Usage
+## Usage
 
 Add this to your [.eslintrc file](https://eslint.org/docs/user-guide/configuring#configuration-file-formats):
 
@@ -31,7 +46,7 @@ _Note: You can omitted the `eslint-config-` prefix since it is automatically ass
 
 ---
 
-# Readme badges
+## Readme badges
 
 [![Javascript Style Guide](https://img.shields.io/badge/code_style-wezom_relax-red.svg)](https://github.com/WezomAgency/eslint-config-wezom-relax)
 
