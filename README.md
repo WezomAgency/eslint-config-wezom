@@ -8,7 +8,7 @@
 > An ESLint [Shareable Config](http://eslint.org/docs/developer-guide/shareable-configs).
 
 
-### Install
+# Install
 
 ```bash
 npm i eslint-config-wezom-relax
@@ -16,7 +16,7 @@ npm i eslint-config-wezom-relax
 
 ---
 
-### Usage
+# Usage
 
 Add this to your [.eslintrc file](https://eslint.org/docs/user-guide/configuring#configuration-file-formats):
 
@@ -31,7 +31,7 @@ _Note: You can omitted the `eslint-config-` prefix since it is automatically ass
 
 ---
 
-### Readme badges
+# Readme badges
 
 [![Javascript Style Guide](https://img.shields.io/badge/code_style-wezom_relax-red.svg)](https://github.com/WezomAgency/eslint-config-wezom-relax)
 
