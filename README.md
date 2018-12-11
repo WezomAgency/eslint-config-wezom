@@ -14,6 +14,7 @@
 npm i eslint-config-wezom-relax
 ```
 
+---
 
 ### Usage
 
@@ -27,6 +28,8 @@ Add this to your [.eslintrc file](https://eslint.org/docs/user-guide/configuring
 
 _Note: You can omitted the `eslint-config-` prefix since it is automatically assumed by ESLint._
 
+
+---
 
 ### Readme badges
 
